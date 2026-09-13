@@ -21,3 +21,9 @@ Phase 4
 - Practiced process control signals with kill -s: STOP to suspend the process, CONT to resume it, TERM for a graceful termination request, and KILL to force termination immediately when a process cannot be    trusted to respond to TERM.
 - Verified parent-child process relationships using ps -f, confirming the background job's PPID matched the current shell's PID.
 - Started a new process with a lowered scheduling priority from launch using nice -n 15, and confirmed the assigned niceness value with ps -o pid,ni,cmd.
+- Evidences:
+    - ping-initiate-and-terminate.png
+    - process-consuming-cpu.png
+    - process-1215-stopped.png
+    - process-1215-return-to-runningstate.png
+    - process1215-terminated.png
