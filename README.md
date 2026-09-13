@@ -7,7 +7,7 @@ Phase 1 (view connect-to-vm.png and hardware-info-file.png)
 
 Phase 2 (view settingup-default-target.png)
 - In this project is being used an Ubuntu Server, so there is no need to have a graphical.target unit as the default target.
-- Therefore I changed the default target from graphical.target to multi-user.target with the command "systemctl set-default multi-user.target
+- Therefore I changed the default target from graphical.target to multi-user.target with the command "systemctl set-default multi-user.target".
 - In addition, I setup a password for the user sagsadmin with the command sudo passwd sagsadmin.
   
 Phase 3 (view filter-HTTP-errorcodes.png and count-ips-pipeline.png)
