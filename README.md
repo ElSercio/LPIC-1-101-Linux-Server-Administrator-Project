@@ -27,3 +27,19 @@ Phase 4
     - process-1215-stopped.png
     - process-1215-return-to-runningstate.png
     - process1215-terminated.png
+ 
+
+  Phase 5
+- Installed, inspected and removed a package using Debian tools: apt install, dpkg -s (package metadata) and dpkg -L (installed file locations) on the tree package, followed by apt purge and apt autoremove.
+- Installed Docker Engine from the official repository and launched a Rocky Linux 9 container to practice RPM-based package management in isolation from the host system.
+- Repeated the install/inspect/remove cycle inside the container using dnf install, rpm -qi (package metadata) and rpm -ql (installed file locations), then dnf remove and dnf autoremove — comparing the RPM/   dnf workflow against the Debian/apt one used earlier.
+- Evidences:
+    - check-package-status-on-redhat-based.png
+    - create-docker-container-redhat-based.png
+    - dpkg-help.png
+    - dpkg-list-files-installed-by-tree-packet.png
+    - dpkg-status.png
+    - install-ncurses-package-on-docker-running-rockylinux9.png
+    - install-with-apt.png
+    - uninstall-tree-and-dependencies.png
+
