@@ -4,7 +4,7 @@ This project demonstrates the skills obtained from a preparation course to achie
 Phase 1 
 - Launched the Virtual Machine on Azure and established a remote connection using the command "ssh -i" from my personal laptop.
 - Created a file named "hardware_info.txt" using the commands lscpu, free and fdisk and pipes in order to obtain CPU, RAM and Storage information.
--Evidences:
+- Evidences:
     - connect-to-vm.png
     - hardware-info-file.png
 
